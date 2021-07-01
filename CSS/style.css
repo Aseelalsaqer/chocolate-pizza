@@ -1,16 +1,20 @@
 
+
 header h1{ 
     float :left ;
     font-family: 'Yellowtail', cursive;
     font-size: x-large;
     padding-left:15px;
+    font-family: 'Yellowtail', cursive;
     }
 header h2{
   float :left ;
   padding-left: 15px;
-  color: gray;
+  color: gainsboro;
+  
  
     }
+   
  #first {
     float: left;
 }
@@ -20,7 +24,9 @@ header h2{
 main h2 {
     text-align: left;
     font-weight: bolder;
-    font-size: xx-large;
+    font-size: 45px;
+    font-family: 'Anton', sans-serif;
+    padding-bottom: 15px;
 }
 main h5 {
     text-align: left;
@@ -37,16 +43,17 @@ main h5 {
     padding-bottom: 30px;
 }
 header{
-    padding-left: 180px;
-    padding-right: 180px;
+    padding-left: 400px;
+    padding-right: 400px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
 main {
-    padding-left: 180px;
-    padding-right: 180px;
+    padding-left: 400px;
+    padding-right: 400px;
 }
-p {
+#m {
 
     text-align: justify;
     text-indent: 30px;
@@ -57,6 +64,7 @@ p {
 padding-top: 30px;
 padding-bottom: 30px;
 width: 100%;
+margin-bottom: 20px;
 
 
 }
@@ -67,6 +75,15 @@ width: 100%;
     text-align: left;
     font-size: larger;
     margin: 30px;
+}
+#container1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    text-align: left;
+    color: gainsboro;
+    
+    
 }
 
 
@@ -101,3 +118,48 @@ h4 {
 h4{
     text-align: left;
 }
+footer{
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding-left:  400px;
+    padding-right: 400px;
+  }
+.separator{
+    display:flex;
+    align-items: center;
+  }
+  
+.separator .line{
+    height: 1px;
+    flex: 1;
+    background-color:gainsboro;
+  }
+  
+.separator img{
+    padding: 0 2rem;
+  }
+  h6{
+      color: gainsboro;
+  }
+  .lk {
+      
+      background-image: url(https://raw.githubusercontent.com/LTUC/amman-201d32/main/class-10/lab-a/lab-assets/hr-img.png);
+      float: both;
+      height: 20px;
+  }
+   .jk{
+        margin-right: 400px;
+      margin-left: 400px; 
+    background-image: url(https://raw.githubusercontent.com/LTUC/amman-201d32/main/class-10/lab-a/lab-assets/hr-img.png);
+    float: both;
+    height: 20px;
+   }
+    
+#oo  {
+     font-weight: bolder;
+ }
+ #h {
+    text-align: justify;
+    margin-right: 150px;
+ }
+ 
