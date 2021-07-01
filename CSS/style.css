@@ -1,0 +1,100 @@
+
+header h1{ 
+    float :left ;
+    }
+header h2{
+  float :left ;
+ 
+    }
+ #first {
+    float: left;
+}
+#sec {
+    float: right;
+}
+main h2 {
+    text-align: left;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+main h5 {
+    text-align: left;
+    font-weight: lighter;
+    
+}
+#q {
+    text-align: right;
+    vertical-align:top;
+}
+#t{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+header{
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+main {
+    padding-left: 180px;
+    padding-right: 180px;
+}
+p {
+
+    text-align: justify;
+    text-indent: 30px;
+    padding-bottom: 30px;
+}
+#r {
+    background-image: url('https://raw.githubusercontent.com/LTUC/amman-201d32/main/class-10/lab-a/lab-assets/list-bg.png');
+padding-top: 30px;
+padding-bottom: 30px;
+width: 100%;
+
+
+}
+#left{
+    text-align: left;
+    font-size: larger;
+    margin: 30px;
+    /* text-align: justify; */
+   
+}
+
+#right {
+    text-align: right;
+    font-size: larger;
+    margin: 30px;
+   
+
+}
+#girl {
+    float: left;
+    padding-right: 20px;
+}
+article{
+    padding-top: 30px;
+     }
+    
+#ri {
+    text-align: left;
+    
+}
+#le {
+    float: right;
+    padding-left: 10px;
+   
+}
+h4 {
+    padding-bottom: 10px;
+}
+#l{
+    margin-left: 150px;
+}
+#v {
+    float: both;
+    padding-top: 30px;
+    
+}
