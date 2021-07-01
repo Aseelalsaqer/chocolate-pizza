@@ -1,9 +1,14 @@
 
 header h1{ 
     float :left ;
+    font-family: 'Yellowtail', cursive;
+    font-size: x-large;
+    padding-left:15px;
     }
 header h2{
   float :left ;
+  padding-left: 15px;
+  color: gray;
  
     }
  #first {
@@ -55,21 +60,16 @@ width: 100%;
 
 
 }
-#left{
+#container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
     text-align: left;
     font-size: larger;
     margin: 30px;
-    /* text-align: justify; */
-   
 }
 
-#right {
-    text-align: right;
-    font-size: larger;
-    margin: 30px;
-   
 
-}
 #girl {
     float: left;
     padding-right: 20px;
@@ -97,4 +97,7 @@ h4 {
     float: both;
     padding-top: 30px;
     
+}
+h4{
+    text-align: left;
 }
