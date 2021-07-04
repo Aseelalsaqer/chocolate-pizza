@@ -85,7 +85,9 @@ margin-bottom: 20px;
     
     
 }
-
+input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+  }
 
 #girl {
     float: left;
